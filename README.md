@@ -74,8 +74,9 @@ import UIKit
 
 class FeedItem: UITableViewCell {
 
-override func awakeFromNib() {
-super.awakeFromNib()     }
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
 
 }
 ```
@@ -106,7 +107,7 @@ super.awakeFromNib()     }
 
 ```swift
 public func setTitle(title: String) {
-titleLabel.text = title
+    titleLabel.text = title
 }
 ```
 
